@@ -3,7 +3,7 @@ import PropType from "prop-types";
 const Increment = ({ count, onCountIncrement, onCountDecrement }) => {
   return (
     <div>
-      <h2 className="w-1/5 h-18 items-center mx-auto p-1.5 text-white bg-amber-950 mb-1 mt-1">
+      <h2 className="w-fit h-18 items-center mx-auto p-1.5 text-white bg-amber-950 mb-1 mt-1">
         Count in Child: {count}{" "}
       </h2>
       <div className="flex gap-2 items-center w-full mx-auto justify-center mt-3 ">

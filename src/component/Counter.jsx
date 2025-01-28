@@ -19,7 +19,7 @@ const Counter = () => {
         <span className="text-red-500">Increment</span> &{" "}
         <span className="text-green-500">Decrement</span> Counter App
       </h1>
-      <h1 className="w-1/5 h-18 items-center mx-auto p-1.5 text-white bg-amber-950 mb-1 mt-1.5 cursor-pointer">
+      <h1 className="w-fit h-18 items-center mx-auto p-1.5 text-white bg-amber-950 mb-1 mt-1.5 cursor-pointer">
         Count in Parent: {count}
       </h1>
 
